@@ -1,0 +1,10 @@
+# Ethernet Cable categories
+CAT#	Type	Tx-rate	MHz
+3	UTP	19	16
+5	UTP	100	100
+5e	UTP	1000	100
+6	UTP+STP	1000	250
+6a	STP	10000	500
+7	SSTP	10000	600
+# TX-rate in Mbps
+# MHz = transmission rate
