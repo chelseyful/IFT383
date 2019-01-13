@@ -1,12 +1,3 @@
-    1  cd ~
-    2  mkdir a
-    3  cd a
-    4  git clone https://cjingers@bitbucket.org:cjingers/ift383-files.git
-    5  git clone https://cjingers@bitbucket.org/cjingers/ift383-files.git
-    6  ll
-    7  clear
-    8  ssh cjingers@general.asu.edu
-    9  clear
    10  echo "(123) 123-1234"
    11  echo "(123) 123-1234" | grep -E "(123)"
    12  echo "(123) 123-1234" | grep -E "\(123\)"
@@ -18,22 +9,6 @@
    18  echo "bills played billiards" | grep -E "bill\>"
    19  echo "bill played billiards" | grep -E "bill\>"
    20  echo "bill played billiards" | grep -E "b"
-   21  cd ~/IFT383
-   22  ll
-   23  cd mod-0/
-   24  ll
-   25  ls
-   26  ./pokemon.csv
-   27  clear
-   28  ll
-   29  clear
-   30  cd ~
-   31  ll
-   32  cd IFT383-DEV/
-   33  cd mod-0/
-   34  ll
-   35  cat ./pokemon.csv
-   36  clear
    37  cat ./pokemon.csv
    38  cat ./pokemon.csv | grep -E "^1"
    39  cat ./pokemon.csv | grep -E "^[12345]"
@@ -43,10 +18,8 @@
    43  cat ./pokemon.csv | grep -E "^[0-9]{1}"
    44  cat ./pokemon.csv | grep -E "^[0-9]{2}"
    45  cat ./pokemon.csv | grep -E "^[0-9]{2}" | head
-   46  clear
    47  cat ./pokemon.csv | grep -E "^[0-9]{1,3}"
    48  cat ./pokemon.csv | grep -E "^[0-9]{1,3}" | head
-   49  clear
    50  cat ./pokemon.csv | grep -E "^[0-9]{1,3},"
    51  cat ./pokemon.csv | grep -E "^[0-9]{1,3},B"
    52  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[^,]"
@@ -54,18 +27,11 @@
    54  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A-Za-z]|"
    55  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A-Za-z]|+"
    56  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A-Za-z]|+" | wc
-   57  echo "AAA" | wc
-   58  echo "AAA"
-   59  echo -n "AAA"
-   60  echo -n "AAA" | wc
-   61  clear
    62  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A=Za=z]saur,"
    63  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A=Za-z]+saur,"
    64  cat ./pokemon.csv | grep -E "^[0-9]{1,3},[A-Za-z]+saur,"
-   65  clear
    66  echo "ABCABCABCQQQ" | grep -E "(ABC)"
    67  echo "ABCABCABCQQQ" | grep -E "(ABC){2}"
-   68  vom ./movies
    69  vim ./movies
    70  cat ./movies 
    71  cat ./movies | grep -E "V"
@@ -75,9 +41,7 @@
    75  cat ./movies | grep -E "Episode: I?VI?"
    76  cat ./movies | grep -E "Episode I?VI?"
    77  cat ./movies | grep -E "Episode I?VI?$"
-   78  cim ./lights
    79  vim ./lights
-   80  clear
    81  cat ./lights 
    82  cat ./lights | grep -E "3|4"
    83  cat ./lights | grep -E "(FOUR)|(four)|(4)"
@@ -89,20 +53,12 @@
    89  grep -E "[a-z0-9]{1,15}" ./hosts 
    90  grep -E "^[a-z0-9]{1,15}$" ./hosts 
    91  grep -E "^[^\\/:\?\*<>]{1,15}$" ./hosts 
-   92  clear
    93  cat ./pokemon.csv | cut -d"," -f1
    94  cat ./pokemon.csv | cut -d"," -f2
    95  cat ./pokemon.csv | cut -d"," -f1-3
    96  cat ./pokemon.csv | cut -d"," -f1,3
    97  cat ./pokemon.csv | cut -d"," -f3,1
    98  cat ./pokemon.csv | cut -d"," -f1,2
-   99  cd ..
-  100  cd mod-0/
-  101  cd paste/
-  102  ll
-  103  cat first last 
-  104  paste first last
-  105  cd ..
   106  paste pokemon.csv pokemon.csv
   107  paste pokemon.csv pokemon.csv | head
   108  paste pokemon.csv pokemon.csv | head | cut -d"," -f2,14
@@ -110,34 +66,4 @@
   110  paste pokemon.csv pokemon.csv | head | cut -d"," -f2,13 | head
   111  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head
   112  paste pokemon.csv pokemon.csv | cut -d"," -f2,13
-  113  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head
-  114  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail
-  115  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n 1
-  116  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n -1
-  117  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n -1 | head
-  118  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n -1 | head
-  119  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n -1
-  120  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail
-  121  man tail
-  122  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n 1
-  123  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n 2
-  124  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n -2
-  125  clear
-  126  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n -1
-  127  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n-1
-  128  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n-1 | head
-  129  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -1 | head
-  130  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head 1
-  131  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head
-  132  man head
-  133  paste pokemon.csv pokemon.csv | cut -d"," -f2,13
-  134  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n 1
-  135  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | head -n -1
-  136  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n 10
-  137  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n -1 | more
-  138  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n -1
-  139  man tail
-  140  paste pokemon.csv pokemon.csv | cut -d"," -f2,13 | tail -n +1
-  141  c;ear
-  142  clear
   143  history > lecture_1_history
