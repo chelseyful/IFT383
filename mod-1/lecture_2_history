@@ -1,0 +1,142 @@
+  718  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | head | grep -E "(Electric|Rock)1$"
+  719  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric|Rock)1$"
+  720  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$"
+  721  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" 
+  722  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -f"," -k2
+  723  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -f "," -k2
+  724  man sort
+  725  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -t"." -k2
+  726  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -t"."
+  727  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -t"," -k2
+  728  cat ./pokemon.csv | cut -d"," -f1,2,3,12 | grep -E "(Electric)|(Rock)1$" | sort -t"," -k2 > gen1
+  766  cat ./firewall.log | grep -Ev "^[ #]" | head
+  767  cat ./firewall.log | grep -Ev "^@|" | head
+  768  cat ./firewall.log | grep -Ev "^@" | head
+  769  cat ./firewall.log | grep -Ev "^#" | head
+  770  cat ./firewall.log | grep -Ev "^#|" | head
+  771  cat ./firewall.log | grep -Ev "^#|()" | head
+  772  cat ./firewall.log | grep -Ev "^#" | head
+  773  cat ./firewall.log | grep -E "^[0-9]" | head
+  774  clear
+  775  cat ./firewall.log | grep -E "^[0-9]" | head
+  776  cat ./firewall.log | grep -E "^[0-9]" | head | cut -d" " -f1,3,4,5
+  777  cat ./firewall.log | grep -E "^[0-9]" | head | cut -d" " -f1,3,4,5 
+  778  cat ./firewall.log | grep -E "^[0-9]" | head | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}"
+  779  cat ./firewall.log | grep -E "^[0-9]" | head | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}"
+  780  cat ./firewall.log | grep -E "^[0-9]" | head | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01"
+  781  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01"
+  782  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | sort -f" " -k3
+  783  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | sort -t" " -k3
+  784  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f2
+  785  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f3
+  786  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f4
+  787  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f4 | sort
+  788  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f4 | sort | uniq
+  789  cat ./firewall.log | grep -E "^[0-9]" | cut -d" " -f1,3,4,5  | grep -E "[0-9]{4}-[0-9]{2}-01" | cut -d" " -f4 | sort | uniq -c
+  806  cat ./pokemon.csv | sed -n '1p'
+  807  cat ./pokemon.csv | sed -n '$p'
+  808  cat ./pokemon.csv | sed -n '1,4p'
+  809  cat ./pokemon.csv | sed -n '2,$p'
+  810  cat ./pokemon.csv | sed -n '/^[0-9],/p'
+  811  cat ./pokemon.csv | sed -n '/1,/,/10,p'
+  812  cat ./pokemon.csv | sed -n '/1,/,/10,/p'
+  813  cat ./pokemon.csv | sed -n '/^1,/,/^10,/p'
+  814  clear
+  815  ll
+  816  cat ./cables 
+  817  cat ./cables | sed -n '3,8p'
+  818  cat ./cables | sed '3,8p'
+  819  cat ./cables | sed '3,8d'
+  820  cat ./cables | sed -n '3,8d'
+  821  cat ./cables | sed -n '3,8p' > cables2
+  822  cat ./cables2
+  823  echo -e "This is a modified file" | sed 'r cables'
+  824  echo -e "This is a modified file" | sed 'r cables2'
+  825  echo "Hello, WOrld!" | sed 's/Hello/Goodbye/'
+  826  echo "ABC123ABC" | sed 's/[0-9]/?/'
+  827  echo "ABC123ABC" | sed 's/[0-9]+/?/'
+  828  echo "ABC123ABC" | sed 's/[0-9]\+/?/'
+  829  clear
+  830  echo -e "1 apple\n33 apple"
+  831  echo -e "1 apple\n33 apple" | sed 's/[0-9]\{2\}/Q/'
+  832  echo -e "1 apple\n33 apple" | sed 's/[0-9]\{2\} /Q/'
+  833  echo -e "1 apple\n33 apple" | sed 's/[0-9]\{2\} apple/Q/'
+  834  echo -e "1 apple\n33 apple" | sed 's/[0-9]\{2\} apple/&s/'
+  835  cd ./lab-files/
+  836  clear
+  837  ll
+  838  cat ./firewall.log | sed -n '10,20p'
+  839  cat ./firewall.log | sed -n '10,20p' > small.log
+  840  clear
+  841  cat ./small.log 
+  842  cat ./small.log | sed 's/\([0-9]\+\)\(\)\(\)/q/'
+  843  cat ./small.log | sed 's/\([0-9]\+\)-\([0-9]\+\)\(\)/q/'
+  844  cat ./small.log | sed 's/\([0-9]\+\)-\([0-9]\+\)-\([0-9]\+\)/q/'
+  845  cat ./small.log | sed 's/\([0-9]\+\)-\([0-9]\+\)-\([0-9]\+\)/\2*/\3*/\1/'
+  846  cat ./small.log | sed 's/\([0-9]\+\)-\([0-9]\+\)-\([0-9]\+\)/\2\/\3\/\1/'
+  847  vim date.sed
+  848  clear
+  849  cat ./firewall.log | sed -f date.sed
+  850  clear
+  851  cd ..
+  852  cat ./cables
+  853  cat ./cables | sed -e '1d'
+  854  cat ./cables | sed -e '1,2d'
+  855  cat ./cables | sed -e '1,2d' -e '$d'
+  856  clear
+  857  cat ./cables
+  858  sed -i '1,2d' cables
+  859  cat ./cables
+  860  clear
+  861  cd lab-files/
+  862  cat ./date.sed 
+  863  (
+  864  car date.sed | tr '\' ''
+  865  cat date.sed | tr '\' ''
+  866  cat date.sed | tr '\\' ''
+  867  cat date.sed | tr '\\' ' '
+  868  clear
+  869  cd ..
+  870  ll
+  871  cat ./pokemon.csv | cut -d"," -f 2
+  872  cat ./pokemon.csv | cut -d"," -f 2 | grep -E "B"
+  873  alias grep='grep --COLOR=auto'
+  874  grep
+  875  alias grep='grep -COLOR=auto'
+  876  grep
+  877  alias grep='grep --color=auto'
+  878  grep
+  879  cat ./pokemon.csv | cut -d"," -f 2 | grep -E "B"
+  880  cat ./pokemon.csv | cut -d"," -f 2 | grep -E "B|C"
+  881  cd lab-files/
+  882  cat ./firewall.log | head
+  883  cd ..
+  884  cat ./pokemon.csv | head
+  885  cat ./pokemon.csv | cut -d"," -f2,3
+  886  man cut
+  887  clear
+  888  cd ..
+  889  vom script.sh
+  890  vim script.sh
+  891  clear
+  892  ./sctipy.sh
+  893  ./sctip.sh
+  894  ./script.sh
+  895  chmod +x ./script.sh 
+  896  ./script.sh
+  897  /bin/bash ./script.sh 
+  898  vim script.sh
+  899  ./script.sh
+  900  vim script.sh
+  901  ./script.sh
+  902  clear
+  903  set
+  904  clear
+  905  man set
+  906  clear
+  907  set --help
+  908  export
+  953  clear
+  954  history
+  955  ll
+  956  history > lecture_2_history
