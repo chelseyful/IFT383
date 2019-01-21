@@ -1,7 +1,7 @@
 # Use with buildings file
 # counts number of single and multi-story buildings
 BEGIN {
-	MUTI=0
+	MULTI=0
 	SINGLE=0
 	FS=","
 	OFS="\t"
