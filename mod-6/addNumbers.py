@@ -7,7 +7,3 @@ while myTotal == 0 or myInput != 0:
     myInput = input("Please enter a number, 0 to stop: ")
     myTotal+=myInput
 print(myTotal)
-
-if expression:
-    #TODO: Handle when this condition is true
-    pass
