@@ -1,1 +1,6 @@
-.pyc
+# Do not track python class caches
+*.pyc
+
+# Database files
+*.sqlite
+*.sqlite3

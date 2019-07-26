@@ -1,4 +1,4 @@
-# IFT383-FILES
+# IFT383: Shell Scripting with UNIX
 This repository contains example files for IFT383: Shell Scripting with UNIX.
 
 # Module index
@@ -8,12 +8,14 @@ This repository contains example files for IFT383: Shell Scripting with UNIX.
 - mod-4: Perl
 - mod-5: Python - Data structures
 - mod-6: Python - Conditionals and loops
-- mod-7; Python - Object-Oriented Programming
+- mod-7: Python - Object-Oriented Programming
+- spe-1: Special Topic: PowerShell
+- spe-2: Special Topic: Node.js
 
 # Author information
 Chelsey Ingersoll
-Systems Support Analyst Sr.
-UTO - Engagement and Advising Services
+ServiceNow Developer (Systems Analyst)
+IT Service Transformation - University Technology Office
 Arizona State University
 chelsey.ingersoll@asu.edu
 
