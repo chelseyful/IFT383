@@ -1,0 +1,54 @@
+{
+
+    // Make title bar look fancy
+    "window.titleBarStyle": "custom",
+
+    // Editor options
+    "editor.fontSize": 18,
+    "editor.tabSize": 4,
+    "editor.lineNumbers": "on",
+    "editor.cursorStyle": "block",
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": true,
+
+    // Enforce 80-column-rule
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "editor.rulers": [80,120],
+
+    // Disable auto-save and hot exit to make things more predictable
+    "files.autoSave": "off",
+    "files.hotExit": "off",
+
+    // Configurting default options prevents Windows from CRLF line endings
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+
+    // Imcrease visibility on tree nodes
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 24,
+
+    // Platform-specific terminal settings
+    "terminal.external.windowsExec": "powershell",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.linux": "bash",
+    "git.ignoreLegacyWarning": true,
+
+    // Disable web services - limit arbitrary data reporting to MS
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "update.mode": "manual",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+
+    // Allow trailing whitespace for line breaks in MarkDown
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    }
+}
