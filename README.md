@@ -1,5 +1,7 @@
 # IFT383: Shell Scripting with UNIX
-This repository contains example files for IFT383: Shell Scripting with UNIX.
+Examples and lab data sources for IFT383: Shell Scripting with UNIX.
+Intended to be used in conjunction with lecture slides and other course
+materials.
 
 # Module index
 - mod-1: Regular Expressions
@@ -13,11 +15,12 @@ This repository contains example files for IFT383: Shell Scripting with UNIX.
 - spe-2: Special Topic: Node.js
 
 # Author information
-Chelsey Ingersoll
-ServiceNow Developer (Systems Analyst)
-IT Service Transformation - University Technology Office
-Arizona State University
-chelsey.ingersoll@asu.edu
+[Chelsey Ingersoll](https://isearch.asu.edu/profile/1609650 "ASU profile page")  
+ServiceNow Developer (Systems Analyst)  
+IT Service Transformation - University Technology Office  
+Arizona State University  
+chelsey.ingersoll@asu.edu  
 
 # Copyright
-Except where otherwise noted; cotents Copyright 2018-2019 Arizona Board of Regents
+Except where otherwise noted; cotents Copyright 2018-2019
+Arizona Board of Regents
