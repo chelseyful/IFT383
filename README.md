@@ -15,12 +15,12 @@ materials.
 - spe-2: Special Topic: Node.js
 
 # Author information
-[Chelsey Ingersoll](https://isearch.asu.edu/profile/1609650 "ASU profile page")  
-ServiceNow Developer (Systems Analyst)  
-IT Service Transformation - University Technology Office  
-Arizona State University  
-chelsey.ingersoll@asu.edu  
+[Chelsey Ingersoll](https://isearch.asu.edu/profile/1609650 "ASU profile page")
+ServiceNow Developer (Systems Analyst)
+IT Service Transformation - University Technology Office
+Arizona State University
+chelsey.ingersoll@asu.edu
 
 # Copyright
-Except where otherwise noted; cotents Copyright 2018-2019
+Except where otherwise noted; contents Copyright 2018-2019
 Arizona Board of Regents
