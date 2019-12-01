@@ -1,3 +1,7 @@
+# Annoying OS-specific files
+.DS_Store
+Thumbs.db
+
 # Do not track python class caches
 *.pyc
 
