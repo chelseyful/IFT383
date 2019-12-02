@@ -1,6 +1,4 @@
 #!/usr/bin/python
-
-#Nathan Stec
 #IFT 383 Term B Fall 2019
 #Extra Credit Assingment
 

@@ -1,6 +1,5 @@
 IFT 383 Fall 2019 Term B
 
-Nathan Stec
 Extra Credit Assignment
 
 	The purpose of this script is to determine the time till the next holiday. It does not require user input as the script picks out the current date to use. The script only supports federal government holidays. Some ways to improve this script would be to add more holidays, as well as adapt the date to the day of the week it would fall on in the according year. 
