@@ -1,13 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Demo of list functions
-from string import join
-
 gList = list()
 print( len(gList) )
 gList.append("Bread")
 gList.append("Dog food")
 gList.append("Eggs")
-print( "there are %i items in the list!" % (len(gList)))
+print( f"there are {len(gList)} items in the list!")
 gList.remove("Bread")
-print( "removed bread; there are now %i items in the list!" % (len(gList)))
-print( join(gList, "\n") )
+print( f"removed bread; there are now {len(gList)} items in the list!")
+print( "\n".join(gList) )

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Demo reads stdin and does math
 import math
 import sys

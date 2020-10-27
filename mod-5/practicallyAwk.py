@@ -1,11 +1,9 @@
-#!/usr/bin/python
-from string import replace
-from string import split
+#!/usr/bin/python3
 inputString = "First,Second,Third,Fourth\n"
 
 # remove the newline
-inputString = replace(inputString, "\n", "")
-fields = split(inputString, ",")
+inputString = inputString.replace("\n", "")
+fields = inputString.split(",")
 
 # print the first few fields
 print(fields[0])

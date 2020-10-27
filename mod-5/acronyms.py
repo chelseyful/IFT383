@@ -1,5 +1,5 @@
-#!/usr/bin/python
-import string
+#!/usr/bin/python3
+#import string
 
 # Define a small dictionary
 acronyms = {
@@ -11,13 +11,10 @@ acronyms = {
 }
 
 # Display a list of keys and ask the user which one they would like to see
-keyList = string.join(acronyms.keys(), "\n")
-print (keyList)
+keyList = "\n".join(acronyms.keys())
+print(keyList)
 selection = input("Please enter one of the entries above to see definition")
 
-# Convert to uppercase letters
-selection = string.upper(selection)
-
 # Generate and print key and associated value
-outputString = "\n%s\n\t%s\n" % (selection,acronyms[selection])
+outputString = "\n%s\n\t%s\n" % (selection.upper(),acronyms[selection.upper()])
 print(outputString)
