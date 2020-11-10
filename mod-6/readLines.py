@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 namesFile = open("names", "r")
 namesList = list()
 if namesFile.closed == False:

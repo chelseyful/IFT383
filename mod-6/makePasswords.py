@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Creates a file containing some number of random passwords
 import random
 

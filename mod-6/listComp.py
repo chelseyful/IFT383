@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 myNumbers = (1,2,3,4,5,6,7,8,9,10)
 
 # Uses a list comp to filter out any numbers that are not even

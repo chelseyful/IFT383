@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 print("You find yourself in a room with eight doors.")
 print("Each door is numbered starting at 1.")
 print("")

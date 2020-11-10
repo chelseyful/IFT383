@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 myNumber = input("Please enter a number from 1 to 10:   ")
 
 # Did we get a number between 1 and 10?

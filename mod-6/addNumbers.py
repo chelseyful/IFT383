@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Loop while total is zero or user has provided another number to add
 myTotal = 0

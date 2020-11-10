@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Creates a main function that contains our code
 def myFunc(a, b):
