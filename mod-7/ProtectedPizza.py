@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 class ProtectedPizza(object):
     __slices=16
     __temperature=75.0

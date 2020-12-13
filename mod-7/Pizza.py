@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 class Pizza(object):
     slices=16
     temperature=75.0

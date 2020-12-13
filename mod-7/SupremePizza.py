@@ -1,5 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 class SupremePizza(object):
+
+    # class member variables
+    # available on all instances of this class, and any class
+    # that inherits from SupremePizza
     slices=16
     temperature=75.0
 
@@ -8,6 +12,9 @@ class SupremePizza(object):
         self.temperature = temperature
 
     def makeSupreme(self):
+
+        # Instance variables, only available on instances of
+        # SupremePizza on which this method has been invoked
         self.meats = 'all'
         self.veggies = 'all'
         
